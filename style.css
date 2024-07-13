@@ -637,6 +637,9 @@ nav a {
     border-radius: 25px;
     text-decoration: none;
 }
+.section7a{
+    text-align: center;
+}
 
 /* Footer Styles */
 footer {
@@ -1028,10 +1031,10 @@ footer {
 }
 
 
-@media (max-width:375px){
+/* @media (max-width:375px){
     body{
         overflow-x: hidden;
-        width: 375px;
+        width: 370px;
     }
 
     #buttonnav{
@@ -1039,7 +1042,7 @@ footer {
     }
     #page1{
         flex-direction: column-reverse;
-        width: 425px;
+        width: 370px;
         margin-left: 10px;
         text-align: center;
         margin-top: 10px;
@@ -1056,15 +1059,15 @@ footer {
         text-align: center; 
     }
     #leftside{
-        width: 425px;
+        width: 370px;
         margin-left: -5px;
     }
     #rightsideimage{
-        width: 425px;
+        width: 370px;
         margin-left: 10px;
     }
     #travel{
-        width: 315px;
+        width: 370px;
         margin-left: 0px;
         overflow: hidden;
         height: 412px;
@@ -1118,7 +1121,7 @@ footer {
     }
     #card1{
         margin-left: -40px;
-        width: 425px;
+        width: 370px;
         border-radius: 20px;
         border-style: groove;
         margin-bottom: 10px;
@@ -1126,7 +1129,7 @@ footer {
     }
     .firstcontent{
         margin-left: -40px;
-        width: 425px;
+        width: 370px;
     }
    
     .firstcontent>h1{
@@ -1165,13 +1168,13 @@ footer {
         flex-direction: column;
         text-align: center;
         
-        width: 425px;
+        width: 370px;
     }
     .money{
         flex-direction: column-reverse;
     }
     #body{
-        width: 425px;
+        width: 370px;
         margin-bottom: 15px;
         border-radius: 20px;
         box-shadow: none;
@@ -1197,14 +1200,14 @@ footer {
         margin-left: 10px;
     }
     #mainimage4{
-        width: 425px;
+        width: 370px;
         height: fit-content;
         margin-left: 0;
         margin-bottom: 20px;
     }
     #group1{
         display: inline;
-        width: 425px;
+        width: 370px;
     }
 
     #page5{
@@ -1212,7 +1215,7 @@ footer {
         text-align: center;
     }
     #mainimage{
-        width: 425px;
+        width: 370px;
         height: fit-content;
         margin-bottom: 20px;
     }
@@ -1258,10 +1261,10 @@ footer {
         margin: 0 10px;
     }
 
-    #page7{
+    /* #page7{
         flex-direction: column;
         text-align: center;
-        width: 425px;
+        width: 370px;
     }
     #pag7maincontent{
         width: fit-content;
@@ -1271,15 +1274,63 @@ footer {
         display: inline;
     }
     #emailnewsletter{
-        width: 425px;
+        width: 370px;
         display: inline;
     }
     #emailboxcontent{
-        width: 425px;
+        width: 370px;
         padding-right:0%;
         overflow: hidden;
         display: flex;
-    }
+    } */
+    .section7{
+        margin-top: 30vw;
+        height: 110vw;
+        width: 100vw;
+        border-radius: 3vw;
+      }
+      .section7a>h3{
+        margin-top: 10vw;
+        font-size: 5.5vw;
+        width: 70vw;
+        text-align: center;
+        margin-left: 15vw;
+      }
+      .section7a>h1{
+        font-size: 8vw;
+        width: 75vw;
+        margin-left: 14vw;
+        text-align: center;
+        margin-top: 7vw;
+      }
+      .section7b{
+        margin-top: 8vw;
+        margin-left: 7vw;
+        flex-direction: column;
+        height: 15vw;
+        width:86vw ;
+        border-radius: 3vw;
+      }
+      .section7b1>img{
+        height: 8vw;
+        width: 10vw;
+        margin-top: 3vw;
+      }
+      .section7b1>input[type="email"]{
+        font-size: 5vw;
+        gap: 2vw;
+        padding: 2vw 0 0 3vw;
+      }
+      .section7c{
+        margin-top: 10vw;
+      }
+      .section7c>button{
+        background-color: #5D50C6;
+        height: 12vw;
+        width: 80vw;
+        border-radius: 3vw;
+        margin-left: -22vw;
+      }
    
     /* .footer-links {
         display: block;
@@ -1324,4 +1375,4 @@ footer {
 }
 
 
-
+ */
