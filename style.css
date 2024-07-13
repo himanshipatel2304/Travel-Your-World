@@ -80,6 +80,9 @@ nav a {
 .rightside .signup:hover {
     background-color: #5146ff;
 } 
+#buttonnav{
+    
+}
 
 
 
@@ -141,7 +144,7 @@ nav a {
     color: #b22222; /* Adjust color as needed */
 }
 
-.button {
+.buttonpage1 {
     display: flex;
     gap: 20px;
     margin-bottom: 40px;
@@ -168,7 +171,7 @@ nav a {
 
 .button .watch-demo a {
     margin-left: 0;
-}
+} 
 
 .travelimg {
     height: fit-content;
@@ -201,6 +204,7 @@ nav a {
     display: flex;
     margin-top: 50px;
     margin-left: 50px;
+    gap: 10px;
 }
 
 .firstcontent {
@@ -216,6 +220,7 @@ nav a {
     height: 400px;
     width: 400px;
     font-weight: bold;
+    gap: 10px;
 }
 
 #card1 h3 {
@@ -258,7 +263,62 @@ nav a {
     color: #ffffff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+/* .section3d{
+    height: 42vw;
+    border: 1px solid #fff;
+    border-radius: 2.5vw;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section3d1{
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section3d2{
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw 2vw;
+  }
+  
+  .section3e{
+    height: 42vw;
+    border: 1px solid #fff;
+    border-radius: 2.5vw;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section3e1{
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section3e2{
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw 2vw;
+  }
+  
+  .section3f{
+    height: 42vw;
+    border: 1px solid #fff;
+    border-radius: 2.5vw;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section3f1{
+    padding: 1vw 2vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section3f2{
+    display: flex;
+    gap: 1vw;
+    padding: 1.5vw 2vw;
+  } */
 .button:hover {
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
@@ -266,6 +326,11 @@ nav a {
 #page3textandimage {
     display: flex;
     margin-left: 100px;
+}
+
+#page3cardcontent{
+    display: flex;
+    gap: 190px;
 }
 
 #page3image {
@@ -667,30 +732,39 @@ footer {
     display: none;
 }
 
-@media (max-width:425px){
+@media (max-width:426px){
     body{
         overflow-x: hidden;
-        width: 320px;
+        width: 425px;
+    }
+
+    #buttonnav{
+        display:inline-grid;
     }
     #page1{
         flex-direction: column-reverse;
-        width: 320px;
+        width: 425px;
         margin-left: 10px;
         text-align: center;
-        
+        margin-top: 10px;
     }
     .continer{
         border-radius: 20px;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        width: 320px;  
-        margin-bottom: 10px; 
+        width: 300px;  
+        height: 10px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        padding-left: 50px;
+        align-items: center;
+        text-align: center; 
     }
     #leftside{
-        width: 320px;
+        width: 425px;
         margin-left: -5px;
     }
     #rightsideimage{
-        width: 320px;
+        width: 425px;
         margin-left: 10px;
     }
     #travel{
@@ -699,9 +773,10 @@ footer {
         overflow: hidden;
         height: 412px;
     }
-    .button{
+    .buttonpage1{
         flex-direction: column;
         width: 312px;
+        margin-left: 20px;
     }
     .removebrmobile{
         display: none;
@@ -716,29 +791,38 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-left: 20px;
+        padding-left: 20px;
     }
     #firstpart{
         display: flex;
         justify-content: space-between;
+        margin-left: 20px;
+        gap: 10px;
     }
     #firstpart>img{
         height: auto;
         width: 100px;
     }
+    #secondpart{
+        margin-left: 20px;
+    }
     #secondpart>img{
         height: auto;
         width: 100px;
+        margin-left: 8px;
     }
 
     #page2{
         text-align: center;
         justify-content: center;
         flex-direction: column;
+       
         margin-top: 50px;
     }
     #card1{
         margin-left: -40px;
-        width: 320px;
+        width: 425px;
         border-radius: 20px;
         border-style: groove;
         margin-bottom: 10px;
@@ -746,7 +830,13 @@ footer {
     }
     .firstcontent{
         margin-left: -40px;
-        width: 320px;
+        width: 425px;
+    }
+   
+    .firstcontent>h1{
+        width: 321px;
+        
+        
     }
 
     #page3{
@@ -757,18 +847,20 @@ footer {
         margin-left: 10px;
         flex-direction: column;
     }
+    #page3text{
+        width: 321px;
+    }
     .button-container {
         flex-direction: row;
         gap: 220px;
         margin-left: 10px;
+        margin-bottom: 15px;
     }
-
     .button {
-        width: 40px;
-        height: 40px;
+        width: 10vw;
+        height: 10vw;
         font-size: 20px;
     }
-
     h1 {
         font-size: 1.5em;
         margin: 0 10px;
@@ -777,18 +869,29 @@ footer {
         flex-direction: column;
         text-align: center;
         
-        width: 320px;
+        width: 425px;
+    }
+    .money{
+        flex-direction: column-reverse;
     }
     #body{
-        width: 320px;
+        width: 425px;
         margin-bottom: 15px;
         border-radius: 20px;
         box-shadow: none;
         border-style: groove;
         
     }
+    #bodycontent{
+        padding-left: 15px;
+    }
     #body>img{
-        width: 320px;
+        width: 315px;
+    }
+    #page3cardcontent{
+        flex-direction: column-reverse;
+        gap: 0;
+        
     }
 
     #page4{
@@ -798,14 +901,14 @@ footer {
         margin-left: 10px;
     }
     #mainimage4{
-        width: 320px;
+        width: 425px;
         height: fit-content;
         margin-left: 0;
         margin-bottom: 20px;
     }
     #group1{
         display: inline;
-        width: 320px;
+        width: 425px;
     }
 
     #page5{
@@ -813,16 +916,19 @@ footer {
         text-align: center;
     }
     #mainimage{
-        width: 320px;
+        width: 425px;
         height: fit-content;
         margin-bottom: 20px;
     }
     #imageandcontent{
         flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        
-        
+        text-align: left;
+        justify-content: center; 
+        margin-bottom: 10px; 
+    }
+    #imageandcontent>img{
+        height: 60px;
+        width: 75px;
     }
     #page5content>h1{
         font-size: 20px;
@@ -838,11 +944,28 @@ footer {
         margin-top: 0%;
        
     }
+    .button_container {
+        display: flex;
+        gap: 180px;
+        margin-left: 10px;
+        margin-bottom: 15px;
+    }
+
+    .button {
+        width: 10vw;
+        height: 10vw;
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+        margin: 0 10px;
+    }
 
     #page7{
         flex-direction: column;
         text-align: center;
-        width: 320px;
+        width: 425px;
     }
     #pag7maincontent{
         width: fit-content;
@@ -852,11 +975,11 @@ footer {
         display: inline;
     }
     #emailnewsletter{
-        width: 320px;
+        width: 425px;
         display: inline;
     }
     #emailboxcontent{
-        width: 320px;
+        width: 425px;
         padding-right:0%;
         overflow: hidden;
         display: flex;
